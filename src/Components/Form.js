@@ -7,6 +7,7 @@ const Form = (props) => {
   const [currentInput, setInput] = useState("");
   const [currentAge, setAge] = useState("");
   const [error , setError] = useState();
+  //error
 
   const inputValueChange = (e) => {
     setInput(e.target.value);
